@@ -1,16 +1,16 @@
 module.exports = {
-  env: {
-    browser: true,
-    commonjs: true,
-    es2021: true
-  },
-  overrides: [
-  ],
-  parserOptions: {
-    ecmaVersion: 'latest'
-  },
-  rules: {
-    quotes: ["error", "double"],
-    indent: ["error", 4]
-  }
+    env: {
+        browser: true,
+        commonjs: true,
+        es2021: true
+    },
+    overrides: [
+    ],
+    parserOptions: {
+        ecmaVersion: "latest"
+    },
+    rules: {
+        quotes: ["error", "double"],
+        indent: ["error", 4]
+    }
 }
